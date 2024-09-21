@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.bg {
+  background: url(https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694124.jpg?t=st=1726911996~exp=1726915596~hmac=43731e367efb46438014fa4c0e0ea0e09b0b4eb3403bc818635c67ea66d90292&w=1060)
+    no-repeat center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  filter: blur(0px);
+}
+.loading-txt {
+  font-size: 50px;
+  color: #fff;
+}
